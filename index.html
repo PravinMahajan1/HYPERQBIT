@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Privacy Policy | DAILY/AI (AILIVE🤖)</title>
+
+<meta
+ name="description"
+ content="Privacy Policy for DAILY/AI (AILIVE🤖), a HYPERQB AI news, podcast, tutorial, and article reader app."
+/>
+
+  <style>
+    :root {
+      --bg: #eef3f8;
+      --white: #ffffff;
+      --soft: #f7f9fc;
+      --text: #111827;
+      --muted: #6b7280;
+      --border: #d8e0ea;
+      --blue: #2563eb;
+      --blue-dark: #1d4ed8;
+      --yellow: #f7b719;
+      --yellow-soft: #fff5d6;
+      --max-width: 1480px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, Arial, Helvetica, sans-serif;
+      line-height: 1.65;
+    }
+
+    a {
+      color: var(--blue);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .site-wrapper {
+      max-width: var(--max-width);
+      min-height: calc(100vh - 24px);
+      margin: 12px auto;
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 35px rgba(15, 23, 42, 0.08);
+    }
+
+    /* NAVBAR */
+    .navbar {
+      height: 64px;
+      padding: 0 110px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 17px;
+      font-weight: 800;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+    }
+
+    .logo-icon {
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      display: grid;
+      place-items: center;
+      background: #111827;
+      color: #ffffff;
+      font-size: 15px;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 34px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .nav-links a {
+      color: #111827;
+    }
+
+    .nav-links .btn {
+      padding: 9px 17px;
+      border-radius: 9px;
+      color: #ffffff;
+      background: var(--blue);
+      font-weight: 700;
+    }
+
+    .nav-links .btn:hover {
+      background: var(--blue-dark);
+      text-decoration: none;
+    }
+
+    /* HERO */
+    .hero {
+      padding: 56px 110px 58px;
+      background: var(--soft);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 14px;
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--blue);
+    }
+
+    .hero h1 {
+      margin-bottom: 8px;
+      font-size: 36px;
+      line-height: 1.15;
+      letter-spacing: -0.045em;
+      color: #030712;
+    }
+
+    .last-updated {
+      color: var(--muted);
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    /* MAIN CONTENT */
+    .main {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 88px;
+      padding: 54px 110px 72px;
+      align-items: start;
+    }
+
+    .policy-content {
+      max-width: 730px;
+      font-size: 15.5px;
+      color: #1f2937;
+    }
+
+    .policy-content p {
+      margin-bottom: 18px;
+    }
+
+    .policy-content h2 {
+      margin: 34px 0 12px;
+      font-size: 17px;
+      line-height: 1.35;
+      color: #111827;
+      letter-spacing: -0.01em;
+    }
+
+    .policy-content h2:first-child {
+      margin-top: 0;
+    }
+
+    .policy-content ul {
+      margin: 0 0 22px 18px;
+      padding-left: 14px;
+    }
+
+    .policy-content li {
+      margin-bottom: 10px;
+    }
+
+    .notice {
+      margin: 18px 0;
+      padding: 14px 16px;
+      border-left: 4px solid var(--yellow);
+      border-radius: 8px;
+      background: var(--yellow-soft);
+      color: #3f2f00;
+      font-weight: 600;
+    }
+
+    .contact-box {
+      margin-top: 12px;
+      padding: 18px;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: #f8fafc;
+    }
+
+    .contact-box p {
+      margin-bottom: 8px;
+    }
+
+    .contact-box p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* ILLUSTRATION */
+    .illustration-area {
+      position: sticky;
+      top: 40px;
+      min-height: 560px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding-top: 20px;
+    }
+
+    .illustration {
+      width: 100%;
+      max-width: 540px;
+    }
+
+    .illustration svg {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* FOOTER */
+    .footer {
+      padding: 24px 110px;
+      border-top: 1px solid var(--border);
+      background: #ffffff;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 1100px) {
+      .navbar,
+      .hero,
+      .main,
+      .footer {
+        padding-left: 48px;
+        padding-right: 48px;
+      }
+
+      .main {
+        gap: 48px;
+      }
+    }
+
+    @media (max-width: 860px) {
+      .navbar {
+        height: auto;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 18px;
+      }
+
+      .nav-links {
+        flex-wrap: wrap;
+        gap: 16px;
+      }
+
+      .main {
+        grid-template-columns: 1fr;
+      }
+
+      .illustration-area {
+        position: static;
+        min-height: auto;
+        order: -1;
+        padding-top: 0;
+      }
+
+      .illustration {
+        max-width: 420px;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .site-wrapper {
+        margin: 0;
+        min-height: 100vh;
+        border-radius: 0;
+      }
+
+      .navbar,
+      .hero,
+      .main,
+      .footer {
+        padding-left: 24px;
+        padding-right: 24px;
+      }
+
+      .hero {
+        padding-top: 42px;
+        padding-bottom: 42px;
+      }
+
+      .hero h1 {
+        font-size: 31px;
+      }
+
+      .main {
+        padding-top: 36px;
+        padding-bottom: 48px;
+      }
+
+      .nav-links {
+        font-size: 13px;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="site-wrapper">
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="logo">
+        <div class="logo-icon">🤖</div>
+        <span>DAILY/AI</span>
+      </div>
+
+```
+  <nav class="nav-links">
+    <a href="#information">Information</a>
+    <a href="#ai">AI Features</a>
+    <a href="#security">Security</a>
+    <a href="#contact">Contact</a>
+    <a href="#contact" class="btn">Support →</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <a href="javascript:history.back()" class="back-link">← Back</a>
+  <h1>Privacy Policy</h1>
+  <p class="last-updated">Last Updated: June 2026</p>
+</section>
+
+<!-- CONTENT -->
+<main class="main">
+  <article class="policy-content">
+    <p>
+      Your privacy is important to us. This Privacy Policy explains how
+      <strong>DAILY/AI (AILIVE🤖)</strong>, operated under the
+      <strong>HYPERQBIT</strong> brand, handles information when you use our mobile application.
+    </p>
+
+    <p>
+      DAILY/AI is an AI news, podcast, tutorial, and article reader client app. It provides curated AI updates,
+      podcast listings, video tutorials, text-to-speech reading, and AI-assisted summaries.
+    </p>
+
+    <h2 id="information">Information We Collect</h2>
+
+    <p>
+      We designed DAILY/AI to collect as little personal information as possible. The app does not currently
+      require users to create an account, submit a profile, or provide personal identity information to access
+      the main content.
+    </p>
+
+    <ul>
+      <li>
+        <strong>Technical Information:</strong> We may process app version, device type, operating system,
+        crash logs, diagnostics, and performance data to keep the app stable and secure.
+      </li>
+      <li>
+        <strong>Usage Information:</strong> We may process basic app interactions such as opened articles,
+        selected categories, podcast sections, video listings, or content screens.
+      </li>
+      <li>
+        <strong>Network Information:</strong> Backend, hosting, analytics, or security services may automatically
+        process IP address and request data when the app connects to online services.
+      </li>
+    </ul>
+
+    <h2>How We Use Information</h2>
+
+    <p>
+      We use information only to operate, maintain, improve, and secure the app. This includes using information to:
+    </p>
+
+    <ul>
+      <li>Provide AI news, podcasts, tutorial videos, and article content.</li>
+      <li>Load and synchronize content from backend services such as Supabase.</li>
+      <li>Improve app performance, reliability, and user experience.</li>
+      <li>Detect bugs, crashes, abuse, unauthorized access, or technical issues.</li>
+      <li>Generate or update AI-assisted summaries when the summary feature is used.</li>
+    </ul>
+
+    <h2 id="ai">AI Summary Features</h2>
+
+    <p>
+      DAILY/AI may include AI-assisted summary functionality. When this feature is used, article text,
+      article metadata, or existing content summaries may be processed by an AI service to generate a concise
+      summary.
+    </p>
+
+    <div class="notice">
+      AI summaries may contain mistakes. Always verify important information from the original source.
+    </div>
+
+    <p>
+      AI-generated summaries are provided for informational and educational purposes only. They should not be
+      treated as professional, legal, financial, medical, investment, or safety advice.
+    </p>
+
+    <h2>Text-to-Speech Article Reader</h2>
+
+    <p>
+      DAILY/AI may provide a text-to-speech feature that reads article text and summaries aloud. This feature
+      is used to convert text into audio playback. The app does not use this feature to record your voice and
+      does not require microphone access.
+    </p>
+
+    <h2>Third-Party Services</h2>
+
+    <p>
+      DAILY/AI may use third-party services to provide backend storage, app delivery, content delivery,
+      analytics, crash reporting, AI summaries, external video links, and podcast links.
+    </p>
+
+    <ul>
+      <li><strong>Supabase</strong> for backend database and content storage.</li>
+      <li><strong>Expo</strong> for mobile app development and delivery services.</li>
+      <li><strong>AI providers</strong> for AI-assisted summary generation, if enabled.</li>
+      <li><strong>YouTube or external video platforms</strong> when opening tutorial video content.</li>
+      <li><strong>Podcast platforms or RSS sources</strong> when opening podcast content.</li>
+      <li><strong>Analytics or crash-reporting tools</strong> if enabled in production.</li>
+    </ul>
+
+    <p>
+      These third-party services may process information according to their own privacy policies and terms.
+    </p>
+
+    <h2>External Links and Sources</h2>
+
+    <p>
+      The app may display or link to external news sources, podcasts, videos, tutorials, websites, or other
+      third-party content. We are not responsible for the content, accuracy, privacy practices, or policies
+      of external services.
+    </p>
+
+    <h2>App Permissions</h2>
+
+    <p>
+      DAILY/AI only requests permissions needed for app functionality. The app does not currently require access
+      to sensitive permissions such as precise location, contacts, SMS, call logs, camera, microphone, or broad
+      file storage access.
+    </p>
+
+    <h2>Children’s Privacy</h2>
+
+    <p>
+      DAILY/AI is not directed to children under 13 years of age. We do not knowingly collect personal information
+      from children under 13. If you believe a child has provided personal information through the app, please
+      contact us so we can take appropriate action.
+    </p>
+
+    <h2>Data Retention</h2>
+
+    <p>
+      We retain technical, usage, backend, crash, and diagnostic information only as long as reasonably necessary
+      to operate, improve, secure, and maintain the app, unless a longer retention period is required by law.
+    </p>
+
+    <h2 id="security">Data Security</h2>
+
+    <p>
+      We use reasonable technical and organizational safeguards to protect app-related information. However,
+      no method of transmission over the internet or electronic storage is completely secure, and we cannot
+      guarantee absolute security.
+    </p>
+
+    <h2>User Choices</h2>
+
+    <p>
+      You may stop using the app or uninstall it at any time. If future versions introduce account creation,
+      saved preferences, subscriptions, or user-generated content, we will provide appropriate access,
+      correction, and deletion options where required by law and platform policy.
+    </p>
+
+    <h2>Changes to This Privacy Policy</h2>
+
+    <p>
+      We may update this Privacy Policy from time to time. When we update it, we will revise the
+      “Last Updated” date above. Continued use of the app after changes means you accept the updated Privacy Policy.
+    </p>
+
+    <h2 id="contact">Contact Us</h2>
+
+    <p>
+      If you have questions about this Privacy Policy or the app’s data practices, contact us:
+    </p>
+
+    <div class="contact-box">
+      <p><strong>App:</strong> DAILY/AI (AILIVE🤖)</p>
+      <p><strong>Brand:</strong> HYPERQBIT</p>
+    </div>
+  </article>
+
+  <!-- RIGHT SIDE ILLUSTRATION -->
+  <aside class="illustration-area" aria-label="Privacy policy illustration">
+    <div class="illustration">
+      <svg viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Person using laptop illustration">
+        <rect x="92" y="168" width="168" height="118" rx="8" fill="#fff7dc" stroke="#0057b8" stroke-width="8"/>
+        <path d="M112 205 C150 175, 200 176, 240 205" fill="none" stroke="#f7b719" stroke-width="8" stroke-linecap="round"/>
+        <path d="M112 235 C150 205, 205 204, 240 235" fill="none" stroke="#f7b719" stroke-width="8" stroke-linecap="round"/>
+        <path d="M94 402 C94 310, 96 238, 108 170" fill="none" stroke="#0057b8" stroke-width="8" stroke-linecap="round"/>
+        <path d="M258 412 C252 340, 258 244, 260 170" fill="none" stroke="#0057b8" stroke-width="8" stroke-linecap="round"/>
+
+        <ellipse cx="435" cy="184" rx="50" ry="45" fill="#0057b8"/>
+        <circle cx="404" cy="145" r="32" fill="#0057b8"/>
+        <circle cx="452" cy="143" r="30" fill="#0057b8"/>
+        <path d="M383 220 C410 245, 472 250, 502 217" fill="none" stroke="#0057b8" stroke-width="9" stroke-linecap="round"/>
+
+        <path d="M376 230 C330 260, 302 327, 322 405 C338 469, 405 487, 461 456 C521 424, 530 344, 500 286 C476 241, 421 206, 376 230Z" fill="#f7b719"/>
+        <path d="M379 234 C343 272, 337 342, 358 394" fill="none" stroke="#0057b8" stroke-width="7" stroke-linecap="round"/>
+        <path d="M492 290 C526 340, 518 410, 464 456" fill="none" stroke="#0057b8" stroke-width="7" stroke-linecap="round"/>
+
+        <rect x="240" y="275" width="142" height="92" rx="10" fill="#ffffff" stroke="#0057b8" stroke-width="9"/>
+        <rect x="280" y="303" width="36" height="40" rx="4" fill="#f7b719"/>
+        <path d="M250 382 L395 382" stroke="#0057b8" stroke-width="10" stroke-linecap="round"/>
+        <path d="M303 368 C352 384, 396 394, 444 374" fill="none" stroke="#0057b8" stroke-width="8" stroke-linecap="round"/>
+
+        <path d="M426 456 C434 505, 456 552, 488 596" fill="none" stroke="#0057b8" stroke-width="9" stroke-linecap="round"/>
+        <path d="M373 455 C352 505, 333 552, 318 603" fill="none" stroke="#0057b8" stroke-width="9" stroke-linecap="round"/>
+        <path d="M316 603 C365 595, 402 590, 445 592" fill="none" stroke="#0057b8" stroke-width="9" stroke-linecap="round"/>
+        <path d="M488 596 C523 590, 548 590, 580 596" fill="none" stroke="#0057b8" stroke-width="9" stroke-linecap="round"/>
+
+        <path d="M149 409 C178 394, 230 392, 277 410" fill="none" stroke="#0057b8" stroke-width="9" stroke-linecap="round"/>
+        <path d="M146 415 L129 592" stroke="#0057b8" stroke-width="9" stroke-linecap="round"/>
+        <path d="M278 415 L298 592" stroke="#0057b8" stroke-width="9" stroke-linecap="round"/>
+
+        <rect x="92" y="400" width="52" height="64" rx="8" fill="#f7b719"/>
+        <path d="M99 400 C100 376, 135 376, 137 400" fill="none" stroke="#0057b8" stroke-width="6"/>
+
+        <path d="M548 130 C570 88, 606 82, 597 152 C622 119, 652 136, 614 192 C648 190, 658 230, 596 244 C576 248, 548 218, 538 188 C531 166, 535 149, 548 130Z" fill="#0057b8"/>
+        <path d="M582 138 C560 198, 547 267, 545 354" fill="none" stroke="#0057b8" stroke-width="8" stroke-linecap="round"/>
+        <rect x="518" y="360" width="76" height="82" rx="10" fill="#f7b719"/>
+        <path d="M525 360 C529 326, 584 326, 588 360" fill="none" stroke="#0057b8" stroke-width="7"/>
+
+        <path d="M64 300 C50 260, 44 226, 50 196" fill="none" stroke="#f7b719" stroke-width="8" stroke-linecap="round"/>
+        <path d="M76 292 C73 253, 76 220, 91 191" fill="none" stroke="#f7b719" stroke-width="8" stroke-linecap="round"/>
+        <path d="M394 110 C414 88, 434 78, 458 76" fill="none" stroke="#0057b8" stroke-width="6" stroke-linecap="round"/>
+        <path d="M408 124 C430 104, 452 97, 474 98" fill="none" stroke="#0057b8" stroke-width="6" stroke-linecap="round"/>
+      </svg>
+    </div>
+  </aside>
+</main>
+
+<footer class="footer">
+  © 2026 HYPERQB. All rights reserved. This Privacy Policy should match your final production app configuration.
+</footer>
+```
+
+  </div>
+</body>
+</html>
